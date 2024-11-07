@@ -11,7 +11,7 @@ const loader = document.querySelector('.loader');
 
 searchForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    const query = searchForm.elements.query.value.trim();
+    const query = searchForm.elements.query.value.trim()
 
     if (!query) {
         iziToast.error({ title: 'Error', message: 'Please enter a search term.' });
