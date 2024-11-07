@@ -20,7 +20,3 @@ export function renderImages(images) {
     gallery.insertAdjacentHTML('beforeend', markup);  
 }
 
-export function clearGallery() {
-    const gallery = document.querySelector('.gallery');
-    gallery.innerHTML = '';
-}
